@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlik}}
+</head>
+
+<body>
+    {{>navbar}}
+    <!-- main header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!--left side view-->
+                    <div class="col-md-12 col-12 main_header_left align-items-center ">
+                        <figure class="errorimg">
+                            <img src="imges/404.jpg" alt="shiva" class="img-fluid" title="shiva technical">
+                        </figure>
+                        <p>Welcome to weather app</p>
+                        <h1>{{errormsg}}</h1>
+                    </div>
+                    <!--right side view-->
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
